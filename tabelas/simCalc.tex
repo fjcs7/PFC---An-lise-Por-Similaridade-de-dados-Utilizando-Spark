@@ -1,0 +1,12 @@
+\begin{table}[H]
+\centering
+ \caption{Funções de Similaridade Baseada em Conjuntos, em que $T$ representa o conjunto de \textit{tokens} de cada \textit{string}}
+  \label{tabelaFuncoesSimilaridade}
+    \begin{tabular}{|l|c|} 
+    \hline Função & Definição \\
+    \hline $sim_{jaccard}(S,V)$ & $\dfrac{|T_S \cap T_V|}{|T_S \cup T_V|}$\\ 
+    \hline $sim_{dice}(S,V)$ & $\dfrac{2*|T_S \cap T_V|}{|T_S| + |T_V|}$ \\ 
+    \hline $sim_{cosseno}(S,V)$ & $\dfrac{|T_S \cap T_V|}{|T_S| * |T_V|}$ \\
+    \hline
+    \end{tabular}
+\end{table}
